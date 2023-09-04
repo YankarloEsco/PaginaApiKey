@@ -1,0 +1,77 @@
+body{
+    margin: 25px 0 0 0;
+    text-align: center;
+    background: url(/deadpool.jpg) no-repeat;
+    background-size: 100% auto, 100%;
+    background-attachment: fixed;
+}
+
+.Lenguajes1{
+    text-align: center;
+    margin: 0 0 50px 0;    
+}
+
+.tipos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.genero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,
+                 -1px 0px 0px white,
+                 0px -1px 0px white;
+}
+
+.Ingresar{
+    margin: 50px 0px 25px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,
+                 -1px 0px 0px white,
+                 0px -1px 0px white;
+}
+
+/* Estilo para las tarjetas de películas */
+.pelicula {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para la imagen de la película */
+  .pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el título de la película */
+  .pelicula h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para la descripción de la película */
+  .pelicula p {
+    font-size: 16px;
+    margin: 10px 0;
+  }

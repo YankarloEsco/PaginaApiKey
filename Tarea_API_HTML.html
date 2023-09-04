@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Tarea_API_CSS.css">
+    </head>
+
+    <body>
+        <div class="Lenguajes1">
+            <select id="Lenguajes" class="tipos" onclick="cargarGeneros()" >
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+            </select>
+
+            <select id="Generos" class="genero" onchange="cargarPeliculas()">
+            </select>
+            
+        </div>
+
+        <!--Texto  principal-->
+        <h1>Peliculas Populares</h1>
+       
+        <!--Solicitar ingreso de Datos -->
+        <div class="Ingresar">
+            <p>Ingresa el género de película que deseas ver para darte una recomendación</p>
+        </div>
+        
+        <div id="contendorPeliculas" class="Contenedor"></div>
+    
+    </body>
+    <script src="/Tarea_API_JS.js"></script>
+</html>
